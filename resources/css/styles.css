@@ -15,56 +15,80 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height: 540px;
   height: 30rem;
   position: relative;
+  padding-top: 18px;
   padding-top: 1rem;
 }
 
 .logo_nav_background{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: cadetblue;
   background-size: cover;
+  padding: 18px 36px;
   padding: 1rem 2rem;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .header{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .logo span{
+  margin-left: 18px;
   margin-left: 1rem;
 }
 
 header span, header a {
   color: white;
   font-family: Helvetica;
+  font-size: 18px;
   font-size: 1rem;
   text-decoration: none;
 }
 
 header a{
+  margin-left: 36px;
   margin-left: 2rem;
 }
 
 .main_banner_container{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   max-width: 960px;
   margin: auto;
 }
 
 .main_banner{
   background-color: white;
+  padding: 27px 90px;
   padding: 1.5rem 5rem;
+  margin-top: 180px;
   margin-top: 10rem;
+  margin-right: -36px;
   margin-right: -2rem;
 }
 
 .main_banner span {
   color: black;
+  font-size: 36px;
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.2;
@@ -78,39 +102,63 @@ header a{
 /* Mission */
 
 .mission {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 54px;
   margin-top: 3rem;
 }
 
 .mission_info{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90px;
   width: 5rem;
+  height: 144px;
   height: 8rem;
+  margin: 0px 54px;
   margin: 0rem 3rem;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   text-align: center;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 
 
 }
 
 .paper_icon{
+  width: 63px;
   width: 3.5rem;
 }
 
 .ruler_icon, .truck_icon{
+  width: 90px;
   width: 5rem;
 }
 
 /* Info */
 
 .info_conatainer{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   max-width: 960px;
   margin: auto;
+  margin-top: 54px;
   margin-top: 3rem;
 
 }
@@ -124,37 +172,50 @@ header a{
 
 .info_title{
   background-color: cadetblue;
+  padding: 9px 22.5px;
   padding: .5rem 1.25rem;
+  width: 180px;
   width: 10rem;
 }
 
 .info_title span{
   font-weight: bold;
+  font-size: 18px;
   font-size: 1rem;
   color: white;
 }
 
 .info p{
+  margin-top: 18px;
   margin-top: 1rem;
 }
 
 /* Footer */
 
 footer{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background-color: azure;
   max-width: 960px;
   margin: auto;
+  padding: 72px 72px;
   padding: 4rem 4rem;
+  margin-top: 90px;
   margin-top: 5rem;
 }
 
 .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer span{
+  margin-left: 18px;
   margin-left: 1rem;
 }
 
@@ -191,6 +252,8 @@ footer{
   }
 
   .mobile_nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 
@@ -221,8 +284,14 @@ footer{
   .mission{
     margin-top: 3.77rem;
     margin-bottom: 2.23rem;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+                -ms-grid-row-align: center;
+            align-items: center;
   }
 
   .mission_info{
@@ -238,8 +307,14 @@ footer{
   }
 
   .info_conatainer{
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+                -ms-grid-row-align: center;
+            align-items: center;
   }
 
   .info_title{
@@ -252,7 +327,9 @@ footer{
   }
 
   footer{
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   .footer span{
